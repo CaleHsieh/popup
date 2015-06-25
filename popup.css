@@ -1,0 +1,53 @@
+/**
+ * TODO: css of the popup
+ * Author: Cale
+ * Time: 2015.03.09
+ */
+
+/*Begin TODO:popup iframe*/
+.popup-window{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1000;
+    width:100%;
+    height:100%;
+    display:none;
+}
+.popup-mask{
+    width:100%;
+    height:100%;
+    display:block;
+    background-color:#000;
+    opacity:0.75;
+    filter:alpha(opacity=75);
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:101;
+}
+.popup-wrap{
+    position:fixed;
+    top:20%;
+    left:50%;
+    z-index:102;
+}
+.popup-close{
+    display:block;
+    position:absolute;
+    right:5px;
+    top:3px;
+    color:#fff;
+    text-align:center;
+    font-size:26px;
+    cursor:pointer;
+    margin-right:50%;
+}
+.popup-overlay{
+    position:fixed;
+    top:40%;
+    left:50%;
+    margin-left:-16px;
+    z-index:1001;
+}
+/*End TODO:popup iframe*/
